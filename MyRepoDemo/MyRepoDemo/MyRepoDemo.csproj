@@ -91,6 +91,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="MyHomehtml.html" />
+    <Content Include="MyHomehtml2.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
