@@ -1,0 +1,39 @@
+﻿
+@{
+    Layout = null;
+}
+@using _2_MvcPractice.Models;
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index </title>
+</head>
+<body>
+    <div> 
+        <h2>
+            Index View content </h2>
+     @*Name: <input type="text" id="=txt" />
+        <input type="button" value="submitt" onclick="hellomessage()" />*@
+
+        <ul>
+            @foreach (employee item in ViewBag.employee)
+            {
+                <li>@item.Name</li>
+            }
+        </ul>
+
+      
+    </div>
+    <script> 
+        //function hellomessage()
+        //{
+        //    var t = document.getElementById('txt');
+        //    alert('hello,' + t);
+        //}
+    </script>
+
+</body>
+</html>

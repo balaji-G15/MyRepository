@@ -1,0 +1,6 @@
+namespace UnittestDemo.Areas.HelpPage.ModelDescriptions
+{
+    public class DictionaryModelDescription : KeyValuePairModelDescription
+    {
+    }
+}
